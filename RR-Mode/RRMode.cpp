@@ -17,7 +17,7 @@ int main(void)
 
 	SettingsAndPrint();
 
-	if (signal(SIGUSR1, SigUsr) == SIG_ERR )
+	if (signal(SIGUSR1, SigUsr) == SIG_ERR)
 	{
 		LOG4CXX_FATAL(g_logger, "Configure signal failed.");
 		exit(EXIT_FAILURE);

@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug"/>
+				<Option working_dir="/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug"/>
+				<Option working_dir="/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug"/>
+				<Option working_dir="/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="RR-Mode">
-				<Option output="/home/lsf/work/HPNetServer/RR-Mode/RR-Mode" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug"/>
+				<Option output="/home/lsf/work/NewNetServer/RR-Mode/RR-Mode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 RR-Mode"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 RR-Mode"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="RR-Mode/fast">
-				<Option output="/home/lsf/work/HPNetServer/RR-Mode/RR-Mode" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug"/>
+				<Option output="/home/lsf/work/NewNetServer/RR-Mode/RR-Mode" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,53 +77,56 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 RR-Mode/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 RR-Mode/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/lsf/work/HPNetServer/RR-Mode/RRMode.cpp">
+		<Unit filename="/home/lsf/work/NewNetServer/RR-Mode/RRMode.cpp">
 			<Option target="RR-Mode"/>
 		</Unit>
-		<Unit filename="/home/lsf/work/HPNetServer/RR-Mode/config_file.h">
+		<Unit filename="/home/lsf/work/NewNetServer/RR-Mode/config_file.h">
 			<Option target="RR-Mode"/>
 		</Unit>
-		<Unit filename="/home/lsf/work/HPNetServer/RR-Mode/defines.h">
+		<Unit filename="/home/lsf/work/NewNetServer/RR-Mode/dataheader.h">
 			<Option target="RR-Mode"/>
 		</Unit>
-		<Unit filename="/home/lsf/work/HPNetServer/RR-Mode/global_settings.h">
+		<Unit filename="/home/lsf/work/NewNetServer/RR-Mode/defines.h">
 			<Option target="RR-Mode"/>
 		</Unit>
-		<Unit filename="/home/lsf/work/HPNetServer/RR-Mode/init_configure.cc">
+		<Unit filename="/home/lsf/work/NewNetServer/RR-Mode/global_settings.h">
 			<Option target="RR-Mode"/>
 		</Unit>
-		<Unit filename="/home/lsf/work/HPNetServer/RR-Mode/init_configure.h">
+		<Unit filename="/home/lsf/work/NewNetServer/RR-Mode/init_configure.cc">
 			<Option target="RR-Mode"/>
 		</Unit>
-		<Unit filename="/home/lsf/work/HPNetServer/RR-Mode/master_thread.cc">
+		<Unit filename="/home/lsf/work/NewNetServer/RR-Mode/init_configure.h">
 			<Option target="RR-Mode"/>
 		</Unit>
-		<Unit filename="/home/lsf/work/HPNetServer/RR-Mode/master_thread.h">
+		<Unit filename="/home/lsf/work/NewNetServer/RR-Mode/master_thread.cc">
 			<Option target="RR-Mode"/>
 		</Unit>
-		<Unit filename="/home/lsf/work/HPNetServer/RR-Mode/socket_wrapper.h">
+		<Unit filename="/home/lsf/work/NewNetServer/RR-Mode/master_thread.h">
 			<Option target="RR-Mode"/>
 		</Unit>
-		<Unit filename="/home/lsf/work/HPNetServer/RR-Mode/threadSafe_container.h">
+		<Unit filename="/home/lsf/work/NewNetServer/RR-Mode/socket_wrapper.h">
 			<Option target="RR-Mode"/>
 		</Unit>
-		<Unit filename="/home/lsf/work/HPNetServer/RR-Mode/utils.h">
+		<Unit filename="/home/lsf/work/NewNetServer/RR-Mode/threadSafe_container.h">
 			<Option target="RR-Mode"/>
 		</Unit>
-		<Unit filename="/home/lsf/work/HPNetServer/RR-Mode/worker_threads.cc">
+		<Unit filename="/home/lsf/work/NewNetServer/RR-Mode/utils.h">
 			<Option target="RR-Mode"/>
 		</Unit>
-		<Unit filename="/home/lsf/work/HPNetServer/RR-Mode/worker_threads.h">
+		<Unit filename="/home/lsf/work/NewNetServer/RR-Mode/worker_threads.cc">
 			<Option target="RR-Mode"/>
 		</Unit>
-		<Unit filename="/home/lsf/work/HPNetServer/RR-Mode/CMakeLists.txt">
+		<Unit filename="/home/lsf/work/NewNetServer/RR-Mode/worker_threads.h">
+			<Option target="RR-Mode"/>
+		</Unit>
+		<Unit filename="/home/lsf/work/NewNetServer/RR-Mode/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

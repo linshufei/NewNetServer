@@ -219,7 +219,7 @@ int CWorkerThread::CheckHeader(int recv_size, CONN* conn)
 	std::cout << "Get into CheckHeader function." << std::endl;
 	SImageHeader header;
 	memcpy(&header, conn->rBuf, sizeof(SImageHeader));
-	if(header.headerCheckCode == header.height + header.width)
+	if(header.headerType = KRJPEG && header.headerCheckCode == header.height + header.width)
 	{
 		std::cout << "Copy a valid header." << std::endl;
 		return 0;

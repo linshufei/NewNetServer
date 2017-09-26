@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/lsf/work/HPNetServer/RR-Mode/RRMode.cpp" "/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/CMakeFiles/RR-Mode.dir/RRMode.cpp.o"
-  "/home/lsf/work/HPNetServer/RR-Mode/init_configure.cc" "/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/CMakeFiles/RR-Mode.dir/init_configure.cc.o"
-  "/home/lsf/work/HPNetServer/RR-Mode/master_thread.cc" "/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/CMakeFiles/RR-Mode.dir/master_thread.cc.o"
-  "/home/lsf/work/HPNetServer/RR-Mode/worker_threads.cc" "/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/CMakeFiles/RR-Mode.dir/worker_threads.cc.o"
+  "/home/lsf/work/NewNetServer/RR-Mode/RRMode.cpp" "/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/CMakeFiles/RR-Mode.dir/RRMode.cpp.o"
+  "/home/lsf/work/NewNetServer/RR-Mode/init_configure.cc" "/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/CMakeFiles/RR-Mode.dir/init_configure.cc.o"
+  "/home/lsf/work/NewNetServer/RR-Mode/master_thread.cc" "/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/CMakeFiles/RR-Mode.dir/master_thread.cc.o"
+  "/home/lsf/work/NewNetServer/RR-Mode/worker_threads.cc" "/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/CMakeFiles/RR-Mode.dir/worker_threads.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

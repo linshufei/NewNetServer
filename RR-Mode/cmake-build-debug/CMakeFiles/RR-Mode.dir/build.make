@@ -43,10 +43,10 @@ RM = /home/lsf/Downloads/clion-2017.2.2/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/lsf/work/HPNetServer/RR-Mode
+CMAKE_SOURCE_DIR = /home/lsf/work/NewNetServer/RR-Mode
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug
+CMAKE_BINARY_DIR = /home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/RR-Mode.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/RR-Mode.dir/flags.make
 
 CMakeFiles/RR-Mode.dir/init_configure.cc.o: CMakeFiles/RR-Mode.dir/flags.make
 CMakeFiles/RR-Mode.dir/init_configure.cc.o: ../init_configure.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RR-Mode.dir/init_configure.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR-Mode.dir/init_configure.cc.o -c /home/lsf/work/HPNetServer/RR-Mode/init_configure.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RR-Mode.dir/init_configure.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR-Mode.dir/init_configure.cc.o -c /home/lsf/work/NewNetServer/RR-Mode/init_configure.cc
 
 CMakeFiles/RR-Mode.dir/init_configure.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RR-Mode.dir/init_configure.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lsf/work/HPNetServer/RR-Mode/init_configure.cc > CMakeFiles/RR-Mode.dir/init_configure.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lsf/work/NewNetServer/RR-Mode/init_configure.cc > CMakeFiles/RR-Mode.dir/init_configure.cc.i
 
 CMakeFiles/RR-Mode.dir/init_configure.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RR-Mode.dir/init_configure.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lsf/work/HPNetServer/RR-Mode/init_configure.cc -o CMakeFiles/RR-Mode.dir/init_configure.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lsf/work/NewNetServer/RR-Mode/init_configure.cc -o CMakeFiles/RR-Mode.dir/init_configure.cc.s
 
 CMakeFiles/RR-Mode.dir/init_configure.cc.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/RR-Mode.dir/init_configure.cc.o.provides.build: CMakeFiles/RR-Mode.di
 
 CMakeFiles/RR-Mode.dir/master_thread.cc.o: CMakeFiles/RR-Mode.dir/flags.make
 CMakeFiles/RR-Mode.dir/master_thread.cc.o: ../master_thread.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RR-Mode.dir/master_thread.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR-Mode.dir/master_thread.cc.o -c /home/lsf/work/HPNetServer/RR-Mode/master_thread.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/RR-Mode.dir/master_thread.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR-Mode.dir/master_thread.cc.o -c /home/lsf/work/NewNetServer/RR-Mode/master_thread.cc
 
 CMakeFiles/RR-Mode.dir/master_thread.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RR-Mode.dir/master_thread.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lsf/work/HPNetServer/RR-Mode/master_thread.cc > CMakeFiles/RR-Mode.dir/master_thread.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lsf/work/NewNetServer/RR-Mode/master_thread.cc > CMakeFiles/RR-Mode.dir/master_thread.cc.i
 
 CMakeFiles/RR-Mode.dir/master_thread.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RR-Mode.dir/master_thread.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lsf/work/HPNetServer/RR-Mode/master_thread.cc -o CMakeFiles/RR-Mode.dir/master_thread.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lsf/work/NewNetServer/RR-Mode/master_thread.cc -o CMakeFiles/RR-Mode.dir/master_thread.cc.s
 
 CMakeFiles/RR-Mode.dir/master_thread.cc.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/RR-Mode.dir/master_thread.cc.o.provides.build: CMakeFiles/RR-Mode.dir
 
 CMakeFiles/RR-Mode.dir/RRMode.cpp.o: CMakeFiles/RR-Mode.dir/flags.make
 CMakeFiles/RR-Mode.dir/RRMode.cpp.o: ../RRMode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RR-Mode.dir/RRMode.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR-Mode.dir/RRMode.cpp.o -c /home/lsf/work/HPNetServer/RR-Mode/RRMode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/RR-Mode.dir/RRMode.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR-Mode.dir/RRMode.cpp.o -c /home/lsf/work/NewNetServer/RR-Mode/RRMode.cpp
 
 CMakeFiles/RR-Mode.dir/RRMode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RR-Mode.dir/RRMode.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lsf/work/HPNetServer/RR-Mode/RRMode.cpp > CMakeFiles/RR-Mode.dir/RRMode.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lsf/work/NewNetServer/RR-Mode/RRMode.cpp > CMakeFiles/RR-Mode.dir/RRMode.cpp.i
 
 CMakeFiles/RR-Mode.dir/RRMode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RR-Mode.dir/RRMode.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lsf/work/HPNetServer/RR-Mode/RRMode.cpp -o CMakeFiles/RR-Mode.dir/RRMode.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lsf/work/NewNetServer/RR-Mode/RRMode.cpp -o CMakeFiles/RR-Mode.dir/RRMode.cpp.s
 
 CMakeFiles/RR-Mode.dir/RRMode.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/RR-Mode.dir/RRMode.cpp.o.provides.build: CMakeFiles/RR-Mode.dir/RRMod
 
 CMakeFiles/RR-Mode.dir/worker_threads.cc.o: CMakeFiles/RR-Mode.dir/flags.make
 CMakeFiles/RR-Mode.dir/worker_threads.cc.o: ../worker_threads.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RR-Mode.dir/worker_threads.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR-Mode.dir/worker_threads.cc.o -c /home/lsf/work/HPNetServer/RR-Mode/worker_threads.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/RR-Mode.dir/worker_threads.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RR-Mode.dir/worker_threads.cc.o -c /home/lsf/work/NewNetServer/RR-Mode/worker_threads.cc
 
 CMakeFiles/RR-Mode.dir/worker_threads.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RR-Mode.dir/worker_threads.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lsf/work/HPNetServer/RR-Mode/worker_threads.cc > CMakeFiles/RR-Mode.dir/worker_threads.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/lsf/work/NewNetServer/RR-Mode/worker_threads.cc > CMakeFiles/RR-Mode.dir/worker_threads.cc.i
 
 CMakeFiles/RR-Mode.dir/worker_threads.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RR-Mode.dir/worker_threads.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lsf/work/HPNetServer/RR-Mode/worker_threads.cc -o CMakeFiles/RR-Mode.dir/worker_threads.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/lsf/work/NewNetServer/RR-Mode/worker_threads.cc -o CMakeFiles/RR-Mode.dir/worker_threads.cc.s
 
 CMakeFiles/RR-Mode.dir/worker_threads.cc.o.requires:
 
@@ -169,7 +169,7 @@ RR__Mode_EXTERNAL_OBJECTS =
 ../RR-Mode: CMakeFiles/RR-Mode.dir/worker_threads.cc.o
 ../RR-Mode: CMakeFiles/RR-Mode.dir/build.make
 ../RR-Mode: CMakeFiles/RR-Mode.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../RR-Mode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../RR-Mode"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RR-Mode.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -189,6 +189,6 @@ CMakeFiles/RR-Mode.dir/clean:
 .PHONY : CMakeFiles/RR-Mode.dir/clean
 
 CMakeFiles/RR-Mode.dir/depend:
-	cd /home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lsf/work/HPNetServer/RR-Mode /home/lsf/work/HPNetServer/RR-Mode /home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug /home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug /home/lsf/work/HPNetServer/RR-Mode/cmake-build-debug/CMakeFiles/RR-Mode.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/lsf/work/NewNetServer/RR-Mode /home/lsf/work/NewNetServer/RR-Mode /home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug /home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug /home/lsf/work/NewNetServer/RR-Mode/cmake-build-debug/CMakeFiles/RR-Mode.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/RR-Mode.dir/depend
 

@@ -11,6 +11,7 @@
 #include <vector>
 #include <boost/thread.hpp>
 #include "defines.h"
+#include "dataheader.h"
 #include "threadSafe_container.h"
 
 #define DATA_BUFFER_SIZE 1920*1080
@@ -27,17 +28,6 @@ typedef struct {
     int 				notify_send_fd;     /* sending end of notify pipe */
     CThreadSafeList<CONN_INFO> 	list_conn;	/* queue of new connections to handle */
 } LIBEVENT_THREAD;
-
-//文件头结构体
-typedef struct SImageHeader
-{
-	int width;          //图片的宽度
-	int height;         //图片的高度
-	int serverType;     //请求的服务类型
-	int dataOffset;     //图片数据头的位置
-	int dataSize;       //图片大小
-	int headerCheckCode;    //标志位
-} SImageHeader;
 
 typedef struct{
     int    sfd;
