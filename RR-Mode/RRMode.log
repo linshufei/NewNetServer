@@ -1,11 +1,11 @@
-2017-09-26 05:38:28,715 [0x7f7d77b56780] INFO  RRMode - Run...
-2017-09-26 05:38:28,718 [0x7f7d77b56780] INFO  RRMode - ******remote.listen.port=12007******
-2017-09-26 05:38:28,718 [0x7f7d77b56780] INFO  RRMode - ******worker.thread.num =4******
-2017-09-26 05:38:28,718 [0x7f7d77b56780] INFO  RRMode - ******client.heartbeat.timeout.s =1200******
-2017-09-26 05:38:28,718 [0x7f7d77b56780] TRACE RRMode - The libevent version is 2.0.21-stable
-2017-09-26 05:38:28,718 [0x7f7d77b56780] INFO  RRMode - Initializes worker threads...
-2017-09-26 05:38:28,718 [0x7f7d77b56780] INFO  RRMode - Create threads success. we hava done all the libevent setup.
-2017-09-26 05:38:28,718 [0x7f7d77b56780] INFO  RRMode - CMasterThread::Run:Master thread has start...
-2017-09-26 05:38:54,126 [0x7f7d74f49700] TRACE RRMode - CWorkerThread::ReadPipeCb thread id = 140176809826048
-2017-09-26 05:39:01,551 [0x7f7d74f49700] WARN  RRMode - CWorkerThread::ClientTcpErrorCb:some other errorCode = 104, description = Connection reset by peer
-2017-09-26 05:39:01,552 [0x7f7d74f49700] TRACE RRMode - CWorkerThread::conn_close sfd = 28
+2017-09-26 18:58:07,940 [0x7f7dfe44b780] INFO  RRMode - Run...
+2017-09-26 18:58:07,943 [0x7f7dfe44b780] INFO  RRMode - ******remote.listen.port=12007******
+2017-09-26 18:58:07,943 [0x7f7dfe44b780] INFO  RRMode - ******worker.thread.num =4******
+2017-09-26 18:58:07,943 [0x7f7dfe44b780] INFO  RRMode - ******client.heartbeat.timeout.s =1200******
+2017-09-26 18:58:07,943 [0x7f7dfe44b780] TRACE RRMode - The libevent version is 2.0.21-stable
+2017-09-26 18:58:07,943 [0x7f7dfe44b780] INFO  RRMode - Initializes worker threads...
+2017-09-26 18:58:07,944 [0x7f7dfe44b780] INFO  RRMode - Create threads success. we hava done all the libevent setup.
+2017-09-26 18:58:07,944 [0x7f7dfe44b780] INFO  RRMode - CMasterThread::Run:Master thread has start...
+2017-09-26 18:58:17,712 [0x7f7dfb83e700] TRACE RRMode - CWorkerThread::ReadPipeCb thread id = 140179067365120
+2017-09-26 18:58:37,475 [0x7f7dfb83e700] WARN  RRMode - CWorkerThread::ClientTcpErrorCb:some other errorCode = 104, description = Connection reset by peer
+2017-09-26 18:58:37,477 [0x7f7dfb83e700] TRACE RRMode - CWorkerThread::conn_close sfd = 28

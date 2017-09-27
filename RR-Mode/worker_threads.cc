@@ -185,6 +185,7 @@ CONN* CWorkerThread::InitNewConn(const CONN_INFO& conn_info, LIBEVENT_THREAD* li
 	conn->rlen = 0;
 	conn->wlen = 0;
 	conn->thread = libevent_thread_ptr;
+    conn->header.dataSize = 0;
 
 	/* 将新连接加入此线程libevent事件循环 */
 	int flag = EV_READ | EV_PERSIST;
@@ -214,12 +215,10 @@ CONN* CWorkerThread::InitNewConn(const CONN_INFO& conn_info, LIBEVENT_THREAD* li
 	return conn;
 }
 
-int CWorkerThread::CheckHeader(int recv_size, CONN* conn)
+int CWorkerThread::CheckHeader(SImageHeader& header)
 {
 	std::cout << "Get into CheckHeader function." << std::endl;
-	SImageHeader header;
-	memcpy(&header, conn->rBuf, sizeof(SImageHeader));
-	if(header.headerType = KRJPEG && header.headerCheckCode == header.height + header.width)
+	if(header.headerType == KRJPEG && header.headerCheckCode == header.height + header.width)
 	{
 		std::cout << "Copy a valid header." << std::endl;
 		return 0;
@@ -229,7 +228,8 @@ int CWorkerThread::CheckHeader(int recv_size, CONN* conn)
 
 int CWorkerThread::CheckData(CONN* conn)
 {
-    int* pCheckCode = (int*)&conn->rBuf[conn->header.dataSize + sizeof(SImageHeader)];
+    uint32_t* pCheckCode = (uint32_t*)&conn->rBuf[conn->header.dataSize];
+    std::cout << *pCheckCode << std::endl;
     if(*pCheckCode == conn->header.dataSize)
     {
 		std::cout << "Copy whole picture." << std::endl;
@@ -248,27 +248,29 @@ void CWorkerThread::ClientTcpReadCb(struct bufferevent *bev, void *arg)
 
 	int recv_size = 0;
 
-	if ((recv_size = bufferevent_read(bev, conn->rBuf + conn->rlen, DATA_BUFFER_SIZE - conn->rlen)) > 0)
+	do
 	{
-		conn->rlen = conn->rlen + recv_size;
-        std::cout << "recv_size" << recv_size << std::endl;
+        if(conn->rlen == 0)
+        {
+            int size = bufferevent_read(bev, &conn->header, sizeof(SImageHeader));
+			if(size != sizeof(SImageHeader) || CheckHeader(conn->header))
+            {
+				LOG4CXX_WARN(g_logger, "CWorkerThread::ClientTcpReadCb bad msg");
+				CloseConn(conn, bev);
+				return;
+            }
+        }
+
+        //std::cout << conn->header.dataSize << std::endl;
         std::cout << conn->rlen << std::endl;
 
-        if(conn->rlen >= sizeof(SImageHeader) && !HeaderCheckFlag)
+        if(conn->rlen == conn->header.dataSize + sizeof(uint32_t) && !CheckData(conn))
         {
-			if(!CheckHeader(recv_size, conn))
-			{
-				memcpy(&conn->header, conn->rBuf, sizeof(SImageHeader));
-				HeaderCheckFlag = true;
-			}
-        }
-
-        if(conn->rlen == conn->header.dataSize + sizeof(SImageHeader) + sizeof(int) && !CheckData(conn))
-        {
+            conn->rlen = 0;
 			std::cout << "Begin to send to queue." << std::endl;
             //TO DO send to queue
+            break;
         }
-
 //		//防止恶意连接，进行token校验，不满足校验条件的为恶意连接，直接关闭
 //		if (conn->rlen >= TOKEN_LENGTH && conn->isVerify == false)
 //		{
@@ -285,7 +287,9 @@ void CWorkerThread::ClientTcpReadCb(struct bufferevent *bev, void *arg)
 //				memmove(conn->rBuf, conn->rBuf + TOKEN_LENGTH, conn->rlen);
 //			}
 //		}
-	}
+        recv_size = bufferevent_read(bev, conn->rBuf + conn->rlen, conn->header.dataSize + sizeof(uint32_t) - conn->rlen);
+        conn->rlen = conn->rlen + recv_size;
+    }while( recv_size > 0);
 
 //	std::string str_recv(conn->rBuf, conn->rlen);
 //	if (utils::FindCRLF(str_recv))

@@ -90,7 +90,7 @@ private:
 	static int freecurr_;
 
 private:
-    static int CheckHeader(int recv_size, CONN* conn);
+    static int CheckHeader(SImageHeader& header);
     static int CheckData(CONN* conn);
 };
 

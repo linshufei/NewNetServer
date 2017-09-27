@@ -2,18 +2,18 @@
 
 enum HEADERTYPE
 {
-    KRJPEG = 0,
-    KRH264 = 1
+    KRJPEG = 0x0f0f0f0f,
+    KRH264
 };
 
-//ÎÄ¼þÍ·½á¹¹Ìå
+//ï¿½Ä¼ï¿½Í·ï¿½á¹¹ï¿½ï¿½
 typedef struct SImageHeader
 {
-    uint32_t headerType;        //Êý¾ÝÀàÐÍ±êÖ¾Î»
-    uint32_t width;             //Í¼Æ¬µÄ¿í¶È
-    uint32_t height;            //Í¼Æ¬µÄ¸ß¶È
-    uint32_t serverType;        //ÇëÇóµÄ·þÎñÀàÐÍ
-    uint32_t dataOffset;        //Í¼Æ¬Êý¾ÝÍ·µÄÎ»ÖÃ
-    uint32_t dataSize;          //Í¼Æ¬´óÐ¡
-    uint32_t headerCheckCode;   //Ð£ÑéÂë
+    uint32_t headerType;        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í±ï¿½Ö¾Î»
+    uint32_t width;             //Í¼Æ¬ï¿½Ä¿ï¿½ï¿½
+    uint32_t height;            //Í¼Æ¬ï¿½Ä¸ß¶ï¿½
+    uint32_t serverType;        //ï¿½ï¿½ï¿½ï¿½Ä·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    uint32_t dataOffset;        //Í¼Æ¬ï¿½ï¿½ï¿½ï¿½Í·ï¿½ï¿½Î»ï¿½ï¿½
+    uint32_t dataSize;          //Í¼Æ¬ï¿½ï¿½Ð¡
+    uint32_t headerCheckCode;   //Ð£ï¿½ï¿½ï¿½ï¿½
 } SImageHeader;
